@@ -15,9 +15,9 @@ let square=numbers.map((num)=>{
     return num*num;
 });//transforms each number into square
 console.log(square)
-let even=numbers.filter((num)=>num%2==0)
+let even=numbers.filter((num)=>num%2==0)//filter element which satisfies the given condition
 console.log(even)
-let sum=numbers.reduce((present,num)=>present+num,0)
+let sum=numbers.reduce((present,num)=>present+num,0)//gives single value
 console.log(sum)
 
 let persons=[{
