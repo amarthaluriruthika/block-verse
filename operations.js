@@ -1,4 +1,4 @@
-//arithmetic operators
+//arithmetic operators(camelCase is preferred in js)
 let x=10,y=16
 console.log(x*y)
 console.log(x-y)
